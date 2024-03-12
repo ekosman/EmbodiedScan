@@ -110,9 +110,9 @@ cd EmbodiedScan
 ```bash
 conda create -n embodiedscan python=3.8 -y  # pytorch3d needs python>3.7
 conda activate embodiedscan
-# Install PyTorch, for example, install PyTorch 1.11.0 for CUDA 11.3
-# For more information, please refer to https://pytorch.org/get-started/locally/
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+# Install PyTorch
+pip install https://download.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp38-cp38-linux_x86_64.whl#sha256=5f0a8085343b55935052f85447f4649641b45cd07fe940023aef4d8f6a7c4c65
+pip install torchvision torchaudio
 ```
 
 3. Install EmbodiedScan.
