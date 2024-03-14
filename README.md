@@ -132,6 +132,10 @@ Now your conda manager should be able to detect all environments the are located
 # This script will install the dependencies and EmbodiedScan package automatically.
 # use [python install.py run] to install only the execution dependencies
 # use [python install.py visual] to install only the visualization dependencies
+pip install -U openmim
+mim install mmengine
+mim install 'mmcv>=2.0.0rc4'
+mim install mmdet
 python install.py all  # install all the dependencies
 ```
 
