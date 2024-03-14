@@ -111,7 +111,7 @@ cd EmbodiedScan
 conda create -n embodiedscan python=3.8 -y  # pytorch3d needs python>3.7
 conda activate embodiedscan
 # Install PyTorch
-pip install https://download.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp38-cp38-linux_x86_64.whl#sha256=5f0a8085343b55935052f85447f4649641b45cd07fe940023aef4d8f6a7c4c65
+pip install [https://download.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp38-cp38-linux_x86_64.whl#sha256=5f0a8085343b55935052f85447f4649641b45cd07fe940023aef4d8f6a7c4c65](https://download.pytorch.org/whl/cu118/torch-2.2.1%2Bcu118-cp38-cp38-linux_x86_64.whl)
 pip install torchvision torchaudio
 ```
 
